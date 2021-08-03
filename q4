@@ -1,1 +1,1 @@
-Yes, both the functions foo1() and foo2() will reurn the same thing. This is because the object both the functions are trying to return are same. 
+No both the functions foo1() and foo2() will not return the same thing. In function foo1(), a curly bracket starts right after the 'return' keyword and hence will return the object inside the  curly bracket. Whereas in foo2(), the line is empty after the 'return' keyword, hence the function foo2() does not have anything to return.
